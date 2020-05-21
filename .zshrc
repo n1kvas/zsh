@@ -37,10 +37,10 @@ bindkey '^ ' autosuggest-accept
 
 # Load ; should be last.
 #source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null # ++++++++++for MacOS
 
 #source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null # ++++++++++for MacOS
 
 #source /usr/share/autojump/autojump.zsh 2>/dev/null
-source /usr/local/etc/profile.d/autojump.sh 2>/dev/null
+source /usr/local/etc/profile.d/autojump.sh 2>/dev/null # ++++++++++for MacOS
